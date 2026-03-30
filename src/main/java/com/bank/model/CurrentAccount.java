@@ -5,11 +5,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * Represents a current bank account.
+ */
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CurrentAccount extends BankAccount{
+public class CurrentAccount extends BankAccount {
 
-    private Double overDraftLimit;
+  private Double overDraftLimit;
 }
